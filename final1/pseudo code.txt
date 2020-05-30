@@ -1,0 +1,23 @@
+A=first(Array)
+B=last(Array)
+Do While A<=B
+mid=(B+A)/2
+if target=Array(mid) then
+found=true
+Exit Do
+elseif target<Array(mid) then
+A=(mid-1)
+else
+B=(mid+1)
+end if
+loop
+bainary---------------------------------------------------
+int LinearSearch?(int[] Araay, int target)
+for (int i=0; i< Array.Length;i++)
+if(Array[i]== target)
+return i
+end if
+end for
+else
+return -1
+end LinearSearch
